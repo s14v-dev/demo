@@ -24,13 +24,13 @@
         {
           "label": "ACTION REQUIRED",
           "value": 10,
-          "footerLabel": "Critical sites completed",
+          "footerLabel": "Critical sites ",
           "footerValue": 5
         },
         {
           "label": "SCHEDULE OVERRUN",
           "value": 5,
-          "footerLabel": "Behind schedule completed",
+          "footerLabel": "Behind schedule ",
           "footerValue": 3
         }
       ]
