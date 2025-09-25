@@ -1,78 +1,100 @@
 {
-  "kpis": [
-    {
-      "label": "TOTAL AHLOA SITES",
-      "value": 12000,
-      "footerLabel": "Radios deployed",
-      "footerValue": 1000000
-    },
-    {
-      "label": "AHLOA SWAPPED",
-      "value": 75,
-      "footerLabel": "Radios completed",
-      "footerValue": 380
-    },
-    {
-      "label": "READY FOR SWAP",
-      "value": 30,
-      "footerLabel": "Pending sites",
-      "footerValue": 22
-    },
-    {
-      "label": "ACTION REQUIRED",
-      "value": 10,
-      "footerLabel": "Critical sites completed",
-      "footerValue": 5
-    },
-    {
-      "label": "SCHEDULE OVERRUN",
-      "value": 5,
-      "footerLabel": "Behind schedule completed",
-      "footerValue": 3
+  "kpis": {
+    "isSuccess": true,
+    "data": {
+      "kpis": [
+        {
+          "label": "TOTAL AHLOA SITES",
+          "value": 12000,
+          "footerLabel": "Radios deployed",
+          "footerValue": 1000000
+        },
+        {
+          "label": "AHLOA SWAPPED",
+          "value": 75,
+          "footerLabel": "Radios completed",
+          "footerValue": 380
+        },
+        {
+          "label": "READY FOR SWAP",
+          "value": 30,
+          "footerLabel": "Pending sites",
+          "footerValue": 22
+        },
+        {
+          "label": "ACTION REQUIRED",
+          "value": 10,
+          "footerLabel": "Critical sites completed",
+          "footerValue": 5
+        },
+        {
+          "label": "SCHEDULE OVERRUN",
+          "value": 5,
+          "footerLabel": "Behind schedule completed",
+          "footerValue": 3
+        }
+      ]
     }
-  ],
-  "kpiData": [
-  { "label": "Site Completion", "percentage": 75 },
-  { "label": "Compliance Rate", "percentage": 90 },
-  { "label": "Swap Progress", "value": 78000, "total": 120000 },
-  { "label": "Network Health", "percentage": 85 },
-  { "label": "Resource Utilization", "value": 110000, "total": 1200000 },
-  { "label": "Energy Efficiency", "percentage": 80 },
-  { "label": "Downtime Reduction", "value": 67000, "total": 100000 },
-  { "label": "Safety Compliance", "percentage": 95 },
-  { "label": "QA Score", "percentage": 88 },
-  { "label": "Delivery Rate", "value": 99000, "total": 120000 },
-  { "label": "Customer Satisfaction", "percentage": 92 },
-  { "label": "Server Uptime", "percentage": 99 },
-  { "label": "Incident Response Time", "value": 3, "total": 5 },
-  { "label": "Network Latency", "value": 120, "total": 200 },
-  { "label": "Ticket Resolution Rate", "percentage": 87 },
-  { "label": "Backup Success Rate", "percentage": 98 },
-  { "label": "New Deployments", "value": 15, "total": 20 },
-  { "label": "Training Completion", "percentage": 78 },
-  { "label": "Energy Consumption", "value": 45000, "total": 60000 },
-  { "label": "Patch Compliance", "percentage": 94 }
-],
+  },
 
-  "statusPoints": [
-    { "label": "Server Load" },
-    { "label": "Network Traffic" },
-    { "label": "Completed Tasks" }
-  ],
-  "aiInsights": [
-    { "title": "p1", "description": "AI system performance improved by 15% this week." },
-    { "title": "p2", "description": "Machine learning model retraining completed successfully." },
-    { "title": "p3", "description": "New anomaly detection patterns identified in network data." },
-    { "title": "p4", "description": "AI recommendations generated for resource optimization." },
-    { "title": "p5", "description": "Latency prediction accuracy reached 92%." },
-    { "title": "p6", "description": "Automated report generation reduced manual effort by 40%." }
-  ],
-  "actionableInsights": [
-    { "title": "p1", "description": "Deploy additional servers to handle peak load." },
-    { "title": "p2", "description": "Review backup policies for critical databases." },
-    { "title": "p3", "description": "Schedule maintenance window for software updates." },
-    { "title": "p4", "description": "Increase monitoring for high-traffic nodes." },
-    { "title": "p5", "description": "Validate network security rules on new devices." },
-    { "title": "p6", "description": "Conduct team training on new dashboard features." }
-  ]
+  "kpi-data": {
+    "isSuccess": true,
+    "data": {
+      "kpis": [
+        { "label": "Site Completion", "percentage": 75 },
+        { "label": "Compliance Rate", "percentage": 90 },
+        { "label": "Swap Progress", "value": 78000, "total": 120000 },
+        { "label": "Network Health", "percentage": 85 },
+        { "label": "Resource Utilization", "value": 110000, "total": 1200000 },
+        { "label": "Energy Efficiency", "percentage": 80 },
+        { "label": "Downtime Reduction", "value": 67000, "total": 100000 },
+        { "label": "Safety Compliance", "percentage": 95 },
+        { "label": "QA Score", "percentage": 88 },
+        { "label": "Delivery Rate", "value": 99000, "total": 120000 },
+        { "label": "Customer Satisfaction", "percentage": 92 },
+        { "label": "Server Uptime", "percentage": 99 },
+        { "label": "Incident Response Time", "value": 3, "total": 5 },
+        { "label": "Network Latency", "value": 120, "total": 200 },
+        { "label": "Ticket Resolution Rate", "percentage": 87 },
+        { "label": "Backup Success Rate", "percentage": 98 },
+        { "label": "New Deployments", "value": 15, "total": 20 },
+        { "label": "Training Completion", "percentage": 78 },
+        { "label": "Energy Consumption", "value": 45000, "total": 60000 },
+        { "label": "Patch Compliance", "percentage": 94 }
+      ]
+    }
+  },
+
+  "status-points": {
+    "isSuccess": true,
+    "data": {
+      "points": [
+        { "label": "Server Load" },
+        { "label": "Network Traffic" },
+        { "label": "Completed Tasks" }
+      ]
+    }
+  },
+
+  "global-insights": {
+    "isSuccess": true,
+    "data": {
+      "info": [
+        { "title": "p1", "description": "AI system performance improved by 15% this week." },
+        { "title": "p2", "description": "Machine learning model retraining completed successfully." },
+        { "title": "p3", "description": "New anomaly detection patterns identified in network data." },
+        { "title": "p4", "description": "AI recommendations generated for resource optimization." },
+        { "title": "p5", "description": "Latency prediction accuracy reached 92%." },
+        { "title": "p6", "description": "Automated report generation reduced manual effort by 40%." }
+      ],
+      "actionable": [
+        { "title": "p1", "description": "Deploy additional servers to handle peak load." },
+        { "title": "p2", "description": "Review backup policies for critical databases." },
+        { "title": "p3", "description": "Schedule maintenance window for software updates." },
+        { "title": "p4", "description": "Increase monitoring for high-traffic nodes." },
+        { "title": "p5", "description": "Validate network security rules on new devices." },
+        { "title": "p6", "description": "Conduct team training on new dashboard features." }
+      ]
+    }
+  }
 }
