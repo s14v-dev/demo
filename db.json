@@ -81,20 +81,20 @@
     "isSuccess": true,
     "data": {
       "info": [
-        { "title": "p1", "description": "AI system performance improved by 15% this week." },
-        { "title": "p2", "description": "Machine learning model retraining completed successfully." },
-        { "title": "p3", "description": "New anomaly detection patterns identified in network data." },
-        { "title": "p4", "description": "AI recommendations generated for resource optimization." },
-        { "title": "p5", "description": "Latency prediction accuracy reached 92%." },
-        { "title": "p6", "description": "Automated report generation reduced manual effort by 40%." }
+        { "title": "P1", "description": "AI system performance improved by 15% this week." },
+        { "title": "P2", "description": "Machine learning model retraining completed successfully." },
+        { "title": "P3", "description": "New anomaly detection patterns identified in network data." },
+        { "title": "P4", "description": "AI recommendations generated for resource optimization." },
+        { "title": "P5", "description": "Latency prediction accuracy reached 92%." },
+        { "title": "P6", "description": "Automated report generation reduced manual effort by 40%." }
       ],
       "actionable": [
-        { "title": "p1", "description": "Deploy additional servers to handle peak load." },
-        { "title": "p2", "description": "Review backup policies for critical databases." },
-        { "title": "p3", "description": "Schedule maintenance window for software updates." },
-        { "title": "p4", "description": "Increase monitoring for high-traffic nodes." },
-        { "title": "p5", "description": "Validate network security rules on new devices." },
-        { "title": "p6", "description": "Conduct team training on new dashboard features." }
+        { "title": "P1", "description": "Deploy additional servers to handle peak load." },
+        { "title": "P2", "description": "Review backup policies for critical databases." },
+        { "title": "P3", "description": "Schedule maintenance window for software updates." },
+        { "title": "P4", "description": "Increase monitoring for high-traffic nodes." },
+        { "title": "P5", "description": "Validate network security rules on new devices." },
+        { "title": "P6", "description": "Conduct team training on new dashboard features." }
       ]
     }
   }
