@@ -69,9 +69,10 @@
     "isSuccess": true,
     "data": {
       "points": [
-        { "label": "Server Load" },
-        { "label": "Network Traffic" },
-        { "label": "Completed Tasks" }
+        { "label": "No. of Sites where Vendors Checked in: 10" },
+        { "label": "48 hrs Alarm monitoring - active sites " },
+        { "label": "Currently  Nested Sites : 35" },
+        { "label": "HSSE Non compliance Sites :25" }
       ]
     }
   },
