@@ -1,40 +1,27 @@
 {
   "kpis": {
     "isSuccess": true,
-    "data": {
-      "kpis": [
-        {
-          "label": "TOTAL AHLOA SITES",
-          "value": 12000,
-          "footerLabel": "Radios deployed",
-          "footerValue": 1000000
-        },
-        {
-          "label": "AHLOA SWAPPED",
-          "value": 75,
-          "footerLabel": "Radios completed",
-          "footerValue": 380
-        },
-        {
-          "label": "READY FOR SWAP",
-          "value": 30,
-          "footerLabel": "Pending sites",
-          "footerValue": 22
-        },
-        {
-          "label": "ACTION REQUIRED",
-          "value": 10,
-          "footerLabel": "Critical sites",
-          "footerValue": 5
-        },
-        {
-          "label": "SCHEDULE OVERRUN",
-          "value": 5,
-          "footerLabel": "Behind schedule",
-          "footerValue": 3
-        }
-      ]
-    }
+   "data": [
+  { "key": "48hr Monitoring Completion rate", "value": "17.62" },
+  { "key": "Average punch points per site", "value": "0.01" },
+  { "key": "Total number of Sites", "value": "1701" },
+  { "key": "Total radios", "value": "1765" },
+  { "key": "AHLOB Swapped sites", "value": "1296" },
+  { "key": "AHLOB Swapped radios", "value": "1343" },
+  { "key": "Ready for Swap", "value": "6" },
+  { "key": "Current week forecasted sites", "value": "17" },
+  { "key": "Current week completed sites", "value": "0" },
+  { "key": "No. of scrapped radios", "value": "1383" },
+  { "key": "AHLOB Swap %", "value": "58.5" },
+  { "key": "Swap FTR %", "value": "0" },
+  { "key": "H&S Compliance %", "value": "28" },
+  { "key": "Forecast accuracy (Last week)", "value": "0" },
+  { "key": "Idle Material %", "value": "0" },
+  { "key": "Average site outage Mins", "value": "12.28" },
+  { "key": "Average Swap cycle (Material pick-up to Swap completion)", "value": "36.13" },
+  { "key": "Quality checklist Approved %", "value": "7" }
+]
+
   },
   "kpi-data": {
     "isSuccess": true,
