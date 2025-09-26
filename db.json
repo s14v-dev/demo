@@ -36,7 +36,6 @@
       ]
     }
   },
-
   "kpi-data": {
     "isSuccess": true,
     "data": {
@@ -64,7 +63,6 @@
       ]
     }
   },
-
   "status-points": {
     "isSuccess": true,
     "data": {
@@ -76,7 +74,6 @@
       ]
     }
   },
-
   "global-insights": {
     "isSuccess": true,
     "data": {
