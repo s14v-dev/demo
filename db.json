@@ -63,85 +63,94 @@
       ]
     }
   },
-  "global-insights": {
-    "isSuccess": true,
-    "data": {
-      "info": [
-        {
-          "priority": "P1",
-          "insight": "AI system performance improved",
-          "description": "AI system performance improved by 15% this week.",
-          "mode": "Auto"
-        },
-        {
-          "priority": "P2",
-          "insight": "Model retraining completed",
-          "description": "Machine learning model retraining completed successfully.",
-          "mode": "Auto"
-        },
-        {
-          "priority": "P3",
-          "insight": "New anomaly patterns detected",
-          "description": "New anomaly detection patterns identified in network data.",
-          "mode": "Hybrid"
-        },
-        {
-          "priority": "P4",
-          "insight": "AI recommendations generated",
-          "description": "AI recommendations generated for resource optimization.",
-          "mode": "Auto"
-        },
-        {
-          "priority": "P5",
-          "insight": "Latency prediction accuracy",
-          "description": "Latency prediction accuracy reached 92%.",
-          "mode": "Manual"
-        },
-        {
-          "priority": "P6",
-          "insight": "Automated report generation",
-          "description": "Automated report generation reduced manual effort by 40%.",
-          "mode": "Auto"
-        }
-      ],
-      "action": [
-        {
-          "priority": "P1",
-          "insight": "Deploy additional servers",
-          "description": "Deploy additional servers to handle peak load.",
-          "mode": "Manual"
-        },
-        {
-          "priority": "P2",
-          "insight": "Review backup policies",
-          "description": "Review backup policies for critical databases.",
-          "mode": "Manual"
-        },
-        {
-          "priority": "P3",
-          "insight": "Schedule maintenance",
-          "description": "Schedule maintenance window for software updates.",
-          "mode": "Hybrid"
-        },
-        {
-          "priority": "P4",
-          "insight": "Increase monitoring",
-          "description": "Increase monitoring for high-traffic nodes.",
-          "mode": "Auto"
-        },
-        {
-          "priority": "P5",
-          "insight": "Validate security rules",
-          "description": "Validate network security rules on new devices.",
-          "mode": "Manual"
-        },
-        {
-          "priority": "P6",
-          "insight": "Conduct team training",
-          "description": "Conduct team training on new dashboard features.",
-          "mode": "Hybrid"
-        }
-      ]
-    }
+  "insights": {
+    "aiInsights": [
+      {
+        "priority": "P1",
+        "insight": "Material Shortage Risk",
+        "description": "Critical material shortages are causing delays in project execution.",
+        "mode": "Risk"
+      },
+      {
+        "priority": "P1",
+        "insight": "Resource Allocation Gap",
+        "description": "Lack of skilled engineers in Chicago and Cleveland markets may delay timelines.",
+        "mode": "Resource"
+      },
+      {
+        "priority": "P1",
+        "insight": "Vendor Alignment Issue",
+        "description": "Entitlement misalignment with vendors may cause contract disputes.",
+        "mode": "Vendor"
+      },
+      {
+        "priority": "P1",
+        "insight": "Automation Opportunity",
+        "description": "AI-driven task automation could reduce project execution time by 15%.",
+        "mode": "Opportunity"
+      },
+      {
+        "priority": "P1",
+        "insight": "Parallelization Potential",
+        "description": "Critical path tasks can be parallelized to accelerate delivery.",
+        "mode": "Efficiency"
+      },
+      {
+        "priority": "P2",
+        "insight": "Budget Risk",
+        "description": "Unplanned overtime may increase project costs in high-demand markets.",
+        "mode": "Finance"
+      },
+      {
+        "priority": "P2",
+        "insight": "Weather Impact",
+        "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
+        "mode": "External"
+      }
+    ],
+    "actionableInsights": [
+      {
+        "priority": "P1",
+        "insight": "Reallocate Skilled Engineers",
+        "description": "Shift engineers from low-priority to high-demand markets to mitigate delays.",
+        "mode": "Resource"
+      },
+      {
+        "priority": "P1",
+        "insight": "Fast-Track Material Procurement",
+        "description": "Engage alternate suppliers to address immediate material shortages.",
+        "mode": "Procurement"
+      },
+      {
+        "priority": "P1",
+        "insight": "Negotiate Vendor SLAs",
+        "description": "Work with vendors to align entitlements and avoid disputes.",
+        "mode": "Vendor"
+      },
+      {
+        "priority": "P1",
+        "insight": "Adopt Workflow Automation",
+        "description": "Implement AI tools for automated reporting and tracking.",
+        "mode": "Technology"
+      },
+      {
+        "priority": "P1",
+        "insight": "Enable Parallel Execution",
+        "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
+        "mode": "Efficiency"
+      },
+      {
+        "priority": "P2",
+        "insight": "Increase GC Capacity",
+        "description": "Engage additional general contractors in overloaded regions.",
+        "mode": "Operations"
+      },
+      {
+        "priority": "P2",
+        "insight": "Buffer for Weather Risks",
+        "description": "Add contingency time in markets with heavy weather disruptions.",
+        "mode": "Planning"
+      }
+    ]
   }
 }
