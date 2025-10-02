@@ -64,7 +64,7 @@
     }
   },
   "insights": {
-    "aiInsights": [
+    "info": [
       {
         "priority": "P1",
         "insight": "Material Shortage Risk",
@@ -108,7 +108,7 @@
         "mode": "External"
       }
     ],
-    "actionableInsights": [
+    "actionable": [
       {
         "priority": "P1",
         "insight": "Reallocate Skilled Engineers",
