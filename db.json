@@ -87,73 +87,87 @@
       { "key": "Quality checklist Approved %", "value": "7" }
     ]
   },
-  "global-insights": {
-    "isSuccess": true,
-    "data": {
-      "info": [
-        {
-          "priority": "P1",
-          "insight": "AI system performance improved",
-          "description": "AI system performance improved by 15% this week."
-        },
-        {
-          "priority": "P2",
-          "insight": "Model retraining completed",
-          "description": "Machine learning model retraining completed successfully."
-        },
-        {
-          "priority": "P3",
-          "insight": "New anomaly patterns detected",
-          "description": "New anomaly detection patterns identified in network data."
-        },
-        {
-          "priority": "P4",
-          "insight": "AI recommendations generated",
-          "description": "AI recommendations generated for resource optimization."
-        },
-        {
-          "priority": "P5",
-          "insight": "Latency prediction accuracy",
-          "description": "Latency prediction accuracy reached 92%."
-        },
-        {
-          "priority": "P6",
-          "insight": "Automated report generation",
-          "description": "Automated report generation reduced manual effort by 40%."
-        }
-      ],
-      "action": [
-        {
-          "priority": "P1",
-          "insight": "Deploy additional servers",
-          "description": "Deploy additional servers to handle peak load."
-        },
-        {
-          "priority": "P2",
-          "insight": "Review backup policies",
-          "description": "Review backup policies for critical databases."
-        },
-        {
-          "priority": "P3",
-          "insight": "Schedule maintenance",
-          "description": "Schedule maintenance window for software updates."
-        },
-        {
-          "priority": "P4",
-          "insight": "Increase monitoring",
-          "description": "Increase monitoring for high-traffic nodes."
-        },
-        {
-          "priority": "P5",
-          "insight": "Validate security rules",
-          "description": "Validate network security rules on new devices."
-        },
-        {
-          "priority": "P6",
-          "insight": "Conduct team training",
-          "description": "Conduct team training on new dashboard features."
-        }
-      ]
-    }
+ "global-insights": {
+  "isSuccess": true,
+  "data": {
+    "info": [
+      {
+        "priority": "P1",
+        "insight": "AI system performance improved",
+        "description": "AI system performance improved by 15% this week.",
+        "mode": "Auto"
+      },
+      {
+        "priority": "P2",
+        "insight": "Model retraining completed",
+        "description": "Machine learning model retraining completed successfully.",
+        "mode": "Auto"
+      },
+      {
+        "priority": "P3",
+        "insight": "New anomaly patterns detected",
+        "description": "New anomaly detection patterns identified in network data.",
+        "mode": "Hybrid"
+      },
+      {
+        "priority": "P4",
+        "insight": "AI recommendations generated",
+        "description": "AI recommendations generated for resource optimization.",
+        "mode": "Auto"
+      },
+      {
+        "priority": "P5",
+        "insight": "Latency prediction accuracy",
+        "description": "Latency prediction accuracy reached 92%.",
+        "mode": "Manual"
+      },
+      {
+        "priority": "P6",
+        "insight": "Automated report generation",
+        "description": "Automated report generation reduced manual effort by 40%.",
+        "mode": "Auto"
+      }
+    ],
+    "action": [
+      {
+        "priority": "P1",
+        "insight": "Deploy additional servers",
+        "description": "Deploy additional servers to handle peak load.",
+        "mode": "Manual"
+      },
+      {
+        "priority": "P2",
+        "insight": "Review backup policies",
+        "description": "Review backup policies for critical databases.",
+        "mode": "Manual"
+      },
+      {
+        "priority": "P3",
+        "insight": "Schedule maintenance",
+        "description": "Schedule maintenance window for software updates.",
+        "mode": "Hybrid"
+      },
+      {
+        "priority": "P4",
+        "insight": "Increase monitoring",
+        "description": "Increase monitoring for high-traffic nodes.",
+        "mode": "Auto"
+      },
+      {
+        "priority": "P5",
+        "insight": "Validate security rules",
+        "description": "Validate network security rules on new devices.",
+        "mode": "Manual"
+      },
+      {
+        "priority": "P6",
+        "insight": "Conduct team training",
+        "description": "Conduct team training on new dashboard features.",
+        "mode": "Hybrid"
+      }
+    ]
+  }
+}
+
   }
 }
