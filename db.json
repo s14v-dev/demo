@@ -63,109 +63,85 @@
       ]
     }
   },
-  "status-points": {
+  "global-insights": {
     "isSuccess": true,
-    "statusCode": 200,
-    "data": [
-      { "key": "48hr Monitoring Completion rate", "value": "17.62" },
-      { "key": "Average punch points per site", "value": "0.01" },
-      { "key": "Total number of Sites", "value": "1701" },
-      { "key": "Total radios", "value": "1765" },
-      { "key": "AHLOB Swapped sites", "value": "1296" },
-      { "key": "AHLOB Swapped radios", "value": "1343" },
-      { "key": "Ready for Swap", "value": "6" },
-      { "key": "Current week forecasted sites", "value": "17" },
-      { "key": "Current week completed sites", "value": "0" },
-      { "key": "No. of scrapped radios", "value": "1383" },
-      { "key": "AHLOB Swap %", "value": "58.5" },
-      { "key": "Swap FTR %", "value": "0" },
-      { "key": "H&S Compliance %", "value": "28" },
-      { "key": "Forecast accuracy (Last week)", "value": "0" },
-      { "key": "Idle Material %", "value": "0" },
-      { "key": "Average site outage Mins", "value": "12.28" },
-      { "key": "Average Swap cycle (Material pick-up to Swap completion)", "value": "36.13" },
-      { "key": "Quality checklist Approved %", "value": "7" }
-    ]
-  },
- "global-insights": {
-  "isSuccess": true,
-  "data": {
-    "info": [
-      {
-        "priority": "P1",
-        "insight": "AI system performance improved",
-        "description": "AI system performance improved by 15% this week.",
-        "mode": "Auto"
-      },
-      {
-        "priority": "P2",
-        "insight": "Model retraining completed",
-        "description": "Machine learning model retraining completed successfully.",
-        "mode": "Auto"
-      },
-      {
-        "priority": "P3",
-        "insight": "New anomaly patterns detected",
-        "description": "New anomaly detection patterns identified in network data.",
-        "mode": "Hybrid"
-      },
-      {
-        "priority": "P4",
-        "insight": "AI recommendations generated",
-        "description": "AI recommendations generated for resource optimization.",
-        "mode": "Auto"
-      },
-      {
-        "priority": "P5",
-        "insight": "Latency prediction accuracy",
-        "description": "Latency prediction accuracy reached 92%.",
-        "mode": "Manual"
-      },
-      {
-        "priority": "P6",
-        "insight": "Automated report generation",
-        "description": "Automated report generation reduced manual effort by 40%.",
-        "mode": "Auto"
-      }
-    ],
-    "action": [
-      {
-        "priority": "P1",
-        "insight": "Deploy additional servers",
-        "description": "Deploy additional servers to handle peak load.",
-        "mode": "Manual"
-      },
-      {
-        "priority": "P2",
-        "insight": "Review backup policies",
-        "description": "Review backup policies for critical databases.",
-        "mode": "Manual"
-      },
-      {
-        "priority": "P3",
-        "insight": "Schedule maintenance",
-        "description": "Schedule maintenance window for software updates.",
-        "mode": "Hybrid"
-      },
-      {
-        "priority": "P4",
-        "insight": "Increase monitoring",
-        "description": "Increase monitoring for high-traffic nodes.",
-        "mode": "Auto"
-      },
-      {
-        "priority": "P5",
-        "insight": "Validate security rules",
-        "description": "Validate network security rules on new devices.",
-        "mode": "Manual"
-      },
-      {
-        "priority": "P6",
-        "insight": "Conduct team training",
-        "description": "Conduct team training on new dashboard features.",
-        "mode": "Hybrid"
-      }
-    ]
+    "data": {
+      "info": [
+        {
+          "priority": "P1",
+          "insight": "AI system performance improved",
+          "description": "AI system performance improved by 15% this week.",
+          "mode": "Auto"
+        },
+        {
+          "priority": "P2",
+          "insight": "Model retraining completed",
+          "description": "Machine learning model retraining completed successfully.",
+          "mode": "Auto"
+        },
+        {
+          "priority": "P3",
+          "insight": "New anomaly patterns detected",
+          "description": "New anomaly detection patterns identified in network data.",
+          "mode": "Hybrid"
+        },
+        {
+          "priority": "P4",
+          "insight": "AI recommendations generated",
+          "description": "AI recommendations generated for resource optimization.",
+          "mode": "Auto"
+        },
+        {
+          "priority": "P5",
+          "insight": "Latency prediction accuracy",
+          "description": "Latency prediction accuracy reached 92%.",
+          "mode": "Manual"
+        },
+        {
+          "priority": "P6",
+          "insight": "Automated report generation",
+          "description": "Automated report generation reduced manual effort by 40%.",
+          "mode": "Auto"
+        }
+      ],
+      "action": [
+        {
+          "priority": "P1",
+          "insight": "Deploy additional servers",
+          "description": "Deploy additional servers to handle peak load.",
+          "mode": "Manual"
+        },
+        {
+          "priority": "P2",
+          "insight": "Review backup policies",
+          "description": "Review backup policies for critical databases.",
+          "mode": "Manual"
+        },
+        {
+          "priority": "P3",
+          "insight": "Schedule maintenance",
+          "description": "Schedule maintenance window for software updates.",
+          "mode": "Hybrid"
+        },
+        {
+          "priority": "P4",
+          "insight": "Increase monitoring",
+          "description": "Increase monitoring for high-traffic nodes.",
+          "mode": "Auto"
+        },
+        {
+          "priority": "P5",
+          "insight": "Validate security rules",
+          "description": "Validate network security rules on new devices.",
+          "mode": "Manual"
+        },
+        {
+          "priority": "P6",
+          "insight": "Conduct team training",
+          "description": "Conduct team training on new dashboard features.",
+          "mode": "Hybrid"
+        }
+      ]
+    }
   }
 }
-  
