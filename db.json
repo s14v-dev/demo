@@ -3,43 +3,6 @@
     "isSuccess": true,
     "data": {
       "kpis": [
-        {
-          "label": "TOTAL AHLOA SITES",
-          "value": 12000,
-          "footerLabel": "Radios deployed",
-          "footerValue": 1000000
-        },
-        {
-          "label": "AHLOA SWAPPED",
-          "value": 75,
-          "footerLabel": "Radios completed",
-          "footerValue": 380
-        },
-        {
-          "label": "READY FOR SWAP",
-          "value": 30,
-          "footerLabel": "Pending sites",
-          "footerValue": 22
-        },
-        {
-          "label": "ACTION REQUIRED",
-          "value": 10,
-          "footerLabel": "Critical sites",
-          "footerValue": 5
-        },
-        {
-          "label": "SCHEDULE OVERRUN",
-          "value": 5,
-          "footerLabel": "Behind schedule",
-          "footerValue": 3
-        }
-      ]
-    }
-  },
-  "kpi-data": {
-    "isSuccess": true,
-    "data": {
-      "kpis": [
         { "label": "Site Completion", "percentage": 75 },
         { "label": "Compliance Rate", "percentage": 90 },
         { "label": "Swap Progress", "value": 78000, "total": 120000 },
@@ -63,94 +26,114 @@
       ]
     }
   },
+  "kpiData": {
+    "isSuccess": true,
+    "data": {
+      "kpis": [
+        { "label": "Site Completion", "percentage": 75 },
+        { "label": "Compliance Rate", "percentage": 90 },
+        { "label": "Swap Progress", "value": 78000, "total": 120000 },
+        { "label": "Network Health", "percentage": 85 },
+        { "label": "Resource Utilization", "value": 110000, "total": 1200000 },
+        { "label": "Energy Efficiency", "percentage": 80 },
+        { "label": "Downtime Reduction", "value": 67000, "total": 100000 },
+        { "label": "Safety Compliance", "percentage": 95 },
+        { "label": "QA Score", "percentage": 88 },
+        { "label": "Delivery Rate", "value": 99000, "total": 120000 }
+      ]
+    }
+  },
   "insights": {
-    "info": [
-      {
-        "priority": "P1",
-        "insight": "Material Shortage Risk",
-        "description": "Critical material shortages are causing delays in project execution.",
-        "mode": "Risk"
-      },
-      {
-        "priority": "P1",
-        "insight": "Resource Allocation Gap",
-        "description": "Lack of skilled engineers in Chicago and Cleveland markets may delay timelines.",
-        "mode": "Resource"
-      },
-      {
-        "priority": "P1",
-        "insight": "Vendor Alignment Issue",
-        "description": "Entitlement misalignment with vendors may cause contract disputes.",
-        "mode": "Vendor"
-      },
-      {
-        "priority": "P1",
-        "insight": "Automation Opportunity",
-        "description": "AI-driven task automation could reduce project execution time by 15%.",
-        "mode": "Opportunity"
-      },
-      {
-        "priority": "P1",
-        "insight": "Parallelization Potential",
-        "description": "Critical path tasks can be parallelized to accelerate delivery.",
-        "mode": "Efficiency"
-      },
-      {
-        "priority": "P2",
-        "insight": "Budget Risk",
-        "description": "Unplanned overtime may increase project costs in high-demand markets.",
-        "mode": "Finance"
-      },
-      {
-        "priority": "P2",
-        "insight": "Weather Impact",
-        "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-        "mode": "External"
-      }
-    ],
-    "actionable": [
-      {
-        "priority": "P1",
-        "insight": "Reallocate Skilled Engineers",
-        "description": "Shift engineers from low-priority to high-demand markets to mitigate delays.",
-        "mode": "Resource"
-      },
-      {
-        "priority": "P1",
-        "insight": "Fast-Track Material Procurement",
-        "description": "Engage alternate suppliers to address immediate material shortages.",
-        "mode": "Procurement"
-      },
-      {
-        "priority": "P1",
-        "insight": "Negotiate Vendor SLAs",
-        "description": "Work with vendors to align entitlements and avoid disputes.",
-        "mode": "Vendor"
-      },
-      {
-        "priority": "P1",
-        "insight": "Adopt Workflow Automation",
-        "description": "Implement AI tools for automated reporting and tracking.",
-        "mode": "Technology"
-      },
-      {
-        "priority": "P1",
-        "insight": "Enable Parallel Execution",
-        "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
-        "mode": "Efficiency"
-      },
-      {
-        "priority": "P2",
-        "insight": "Increase GC Capacity",
-        "description": "Engage additional general contractors in overloaded regions.",
-        "mode": "Operations"
-      },
-      {
-        "priority": "P2",
-        "insight": "Buffer for Weather Risks",
-        "description": "Add contingency time in markets with heavy weather disruptions.",
-        "mode": "Planning"
-      }
-    ]
+    "isSuccess": true,
+    "data": {
+      "info": [
+        {
+          "priority": "P1",
+          "insight": "Material Shortage Risk",
+          "description": "Critical material shortages are causing delays in project execution.",
+          "mode": "Risk"
+        },
+        {
+          "priority": "P1",
+          "insight": "Resource Allocation Gap",
+          "description": "Lack of skilled engineers in Chicago and Cleveland markets may delay timelines.",
+          "mode": "Resource"
+        },
+        {
+          "priority": "P1",
+          "insight": "Vendor Alignment Issue",
+          "description": "Entitlement misalignment with vendors may cause contract disputes.",
+          "mode": "Vendor"
+        },
+        {
+          "priority": "P1",
+          "insight": "Automation Opportunity",
+          "description": "AI-driven task automation could reduce project execution time by 15%.",
+          "mode": "Opportunity"
+        },
+        {
+          "priority": "P1",
+          "insight": "Parallelization Potential",
+          "description": "Critical path tasks can be parallelized to accelerate delivery.",
+          "mode": "Efficiency"
+        },
+        {
+          "priority": "P2",
+          "insight": "Budget Risk",
+          "description": "Unplanned overtime may increase project costs in high-demand markets.",
+          "mode": "Finance"
+        },
+        {
+          "priority": "P2",
+          "insight": "Weather Impact",
+          "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
+          "mode": "External"
+        }
+      ],
+      "actionable": [
+        {
+          "priority": "P1",
+          "insight": "Reallocate Skilled Engineers",
+          "description": "Shift engineers from low-priority to high-demand markets to mitigate delays.",
+          "mode": "Resource"
+        },
+        {
+          "priority": "P1",
+          "insight": "Fast-Track Material Procurement",
+          "description": "Engage alternate suppliers to address immediate material shortages.",
+          "mode": "Procurement"
+        },
+        {
+          "priority": "P1",
+          "insight": "Negotiate Vendor SLAs",
+          "description": "Work with vendors to align entitlements and avoid disputes.",
+          "mode": "Vendor"
+        },
+        {
+          "priority": "P1",
+          "insight": "Adopt Workflow Automation",
+          "description": "Implement AI tools for automated reporting and tracking.",
+          "mode": "Technology"
+        },
+        {
+          "priority": "P1",
+          "insight": "Enable Parallel Execution",
+          "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
+          "mode": "Efficiency"
+        },
+        {
+          "priority": "P2",
+          "insight": "Increase GC Capacity",
+          "description": "Engage additional general contractors in overloaded regions.",
+          "mode": "Operations"
+        },
+        {
+          "priority": "P2",
+          "insight": "Buffer for Weather Risks",
+          "description": "Add contingency time in markets with heavy weather disruptions.",
+          "mode": "Planning"
+        }
+      ]
+    }
   }
 }
