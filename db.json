@@ -131,7 +131,7 @@
       ]
     }
   },
-  "site/site-lists": {
+  "site-lists": {
     "isSuccess": true,
     "statusCode": 200,
     "data": {
