@@ -348,97 +348,97 @@
           ]
         }
       ]
-    },
-    "site/site-lists": {
-      "isSuccess": true,
-      "statusCode": 200,
-      "data": {
-        "data": [
-          {
-            "site_code": "A1Q0853B-Test",
-            "market": "MINNEAPOLIS MN",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "MT03310C-Test",
-            "market": "DENVER CO",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "DM05912A-Test",
-            "market": "DES MOINES IA",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "AHLOB Test 3569",
-            "market": "SEATTLE WA",
-            "progress": "4%",
-            "region": "WEST",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "AHLOB Test 3541",
-            "market": "INDIANAPOLIS IN",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "CH95051A-Test",
-            "market": "CHICAGO",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "AHLOB Test 3094",
-            "market": "WICHITA KS",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "A1P0412C-Test",
-            "market": "MINNEAPOLIS MN",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "DN03250A-Test",
-            "market": "DENVER CO",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          },
-          {
-            "site_code": "AHLOB Test 3095",
-            "market": "WICHITA KS",
-            "progress": "4%",
-            "region": "CENTRAL",
-            "current_phase": 1,
-            "status": "COMPLETED"
-          }
-        ],
-        "pageno": 1,
-        "pagesize": 10,
-        "totalRecords": "3741"
-      }
+    }
+  },
+  "site/site-lists": {
+    "isSuccess": true,
+    "statusCode": 200,
+    "data": {
+      "data": [
+        {
+          "site_code": "A1Q0853B-Test",
+          "market": "MINNEAPOLIS MN",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "MT03310C-Test",
+          "market": "DENVER CO",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "DM05912A-Test",
+          "market": "DES MOINES IA",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "AHLOB Test 3569",
+          "market": "SEATTLE WA",
+          "progress": "4%",
+          "region": "WEST",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "AHLOB Test 3541",
+          "market": "INDIANAPOLIS IN",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "CH95051A-Test",
+          "market": "CHICAGO",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "AHLOB Test 3094",
+          "market": "WICHITA KS",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "A1P0412C-Test",
+          "market": "MINNEAPOLIS MN",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "DN03250A-Test",
+          "market": "DENVER CO",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        },
+        {
+          "site_code": "AHLOB Test 3095",
+          "market": "WICHITA KS",
+          "progress": "4%",
+          "region": "CENTRAL",
+          "current_phase": 1,
+          "status": "COMPLETED"
+        }
+      ],
+      "pageno": 1,
+      "pagesize": 10,
+      "totalRecords": "3741"
     }
   }
 }
