@@ -40,26 +40,94 @@
     "isSuccess": true,
     "data": {
       "kpis": [
-        { "label": "Site Completion", "percentage": 75 },
-        { "label": "Compliance Rate", "percentage": 90 },
-        { "label": "Swap Progress", "value": 78000, "total": 120000 },
-        { "label": "Network Health", "percentage": 85 },
-        { "label": "Resource Utilization", "value": 110000, "total": 1200000 },
-        { "label": "Energy Efficiency", "percentage": 80 },
-        { "label": "Downtime Reduction", "value": 67000, "total": 100000 },
-        { "label": "Safety Compliance", "percentage": 95 },
-        { "label": "QA Score", "percentage": 88 },
-        { "label": "Delivery Rate", "value": 99000, "total": 120000 },
-        { "label": "Customer Satisfaction", "percentage": 92 },
-        { "label": "Server Uptime", "percentage": 99 },
-        { "label": "Incident Response Time", "value": 3, "total": 5 },
-        { "label": "Network Latency", "value": 120, "total": 200 },
-        { "label": "Ticket Resolution Rate", "percentage": 87 },
-        { "label": "Backup Success Rate", "percentage": 98 },
-        { "label": "New Deployments", "value": 15, "total": 20 },
-        { "label": "Training Completion", "percentage": 78 },
-        { "label": "Energy Consumption", "value": 45000, "total": 60000 },
-        { "label": "Patch Compliance", "percentage": 94 }
+        {
+          "label": "Site Completion",
+          "percentage": 75
+        },
+        {
+          "label": "Compliance Rate",
+          "percentage": 90
+        },
+        {
+          "label": "Swap Progress",
+          "value": 78000,
+          "total": 120000
+        },
+        {
+          "label": "Network Health",
+          "percentage": 85
+        },
+        {
+          "label": "Resource Utilization",
+          "value": 110000,
+          "total": 1200000
+        },
+        {
+          "label": "Energy Efficiency",
+          "percentage": 80
+        },
+        {
+          "label": "Downtime Reduction",
+          "value": 67000,
+          "total": 100000
+        },
+        {
+          "label": "Safety Compliance",
+          "percentage": 95
+        },
+        {
+          "label": "QA Score",
+          "percentage": 88
+        },
+        {
+          "label": "Delivery Rate",
+          "value": 99000,
+          "total": 120000
+        },
+        {
+          "label": "Customer Satisfaction",
+          "percentage": 92
+        },
+        {
+          "label": "Server Uptime",
+          "percentage": 99
+        },
+        {
+          "label": "Incident Response Time",
+          "value": 3,
+          "total": 5
+        },
+        {
+          "label": "Network Latency",
+          "value": 120,
+          "total": 200
+        },
+        {
+          "label": "Ticket Resolution Rate",
+          "percentage": 87
+        },
+        {
+          "label": "Backup Success Rate",
+          "percentage": 98
+        },
+        {
+          "label": "New Deployments",
+          "value": 15,
+          "total": 20
+        },
+        {
+          "label": "Training Completion",
+          "percentage": 78
+        },
+        {
+          "label": "Energy Consumption",
+          "value": 45000,
+          "total": 60000
+        },
+        {
+          "label": "Patch Compliance",
+          "percentage": 94
+        }
       ]
     }
   },
@@ -71,67 +139,111 @@
           "priority": "P1",
           "insight": "Material Shortage Risk",
           "description": "Critical material shortages are causing delays in project execution.",
-          "tags": ["Risk", "Supply Chain", "Critical"]
+          "tags": [
+            "Risk",
+            "Supply Chain",
+            "Critical"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Resource Allocation Gap",
           "description": "Lack of skilled engineers in Chicago and Cleveland markets may delay timelines.",
-          "tags": ["Resource", "Staffing", "Urgent"]
+          "tags": [
+            "Resource",
+            "Staffing",
+            "Urgent"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Vendor Alignment Issue",
           "description": "Entitlement misalignment with vendors may cause contract disputes.",
-          "tags": ["Vendor", "Contract", "Alignment"]
+          "tags": [
+            "Vendor",
+            "Contract",
+            "Alignment"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Automation Opportunity",
           "description": "AI-driven task automation could reduce project execution time by 15%.",
-          "tags": ["Opportunity", "Automation", "AI"]
+          "tags": [
+            "Opportunity",
+            "Automation",
+            "AI"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Parallelization Potential",
           "description": "Critical path tasks can be parallelized to accelerate delivery.",
-          "tags": ["Efficiency", "Delivery", "Planning"]
+          "tags": [
+            "Efficiency",
+            "Delivery",
+            "Planning"
+          ]
         },
         {
           "priority": "P2",
           "insight": "Budget Risk",
           "description": "Unplanned overtime may increase project costs in high-demand markets.",
-          "tags": ["Finance", "Overtime", "Risk"]
+          "tags": [
+            "Finance",
+            "Overtime",
+            "Risk"
+          ]
         },
         {
           "priority": "P2",
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-          "tags": ["External", "Weather", "Timeline"]
+          "tags": [
+            "External",
+            "Weather",
+            "Timeline"
+          ]
         },
         {
           "priority": "P3",
           "insight": "Budget Risk",
           "description": "Unplanned overtime may increase project costs in high-demand markets.",
-          "tags": ["Finance", "Risk", "Cost"]
+          "tags": [
+            "Finance",
+            "Risk",
+            "Cost"
+          ]
         },
         {
           "priority": "P4",
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-          "tags": ["External", "Disruption", "Risk"]
+          "tags": [
+            "External",
+            "Disruption",
+            "Risk"
+          ]
         },
         {
           "priority": "P4",
           "insight": "Budget Risk",
           "description": "Unplanned overtime may increase project costs in high-demand markets.",
-          "tags": ["Finance", "Unplanned", "Risk"]
+          "tags": [
+            "Finance",
+            "Unplanned",
+            "Risk"
+          ]
         },
         {
           "priority": "P5",
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-          "tags": ["External", "Seasonal", "Risk"]
+          "tags": [
+            "External",
+            "Seasonal",
+            "Risk"
+          ]
         }
       ],
       "actionable": [
@@ -139,154 +251,194 @@
           "priority": "P1",
           "insight": "Reallocate Skilled Engineers",
           "description": "Shift engineers from low-priority to high-demand markets to mitigate delays.",
-          "tags": ["Resource", "Staffing", "Mitigation"]
+          "tags": [
+            "Resource",
+            "Staffing",
+            "Mitigation"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Fast-Track Material Procurement",
           "description": "Engage alternate suppliers to address immediate material shortages.",
-          "tags": ["Procurement", "Suppliers", "Urgent"]
+          "tags": [
+            "Procurement",
+            "Suppliers",
+            "Urgent"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Negotiate Vendor SLAs",
           "description": "Work with vendors to align entitlements and avoid disputes.",
-          "tags": ["Vendor", "SLA", "Contracts"]
+          "tags": [
+            "Vendor",
+            "SLA",
+            "Contracts"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Adopt Workflow Automation",
           "description": "Implement AI tools for automated reporting and tracking.",
-          "tags": ["Technology", "Automation", "AI"]
+          "tags": [
+            "Technology",
+            "Automation",
+            "AI"
+          ]
         },
         {
           "priority": "P1",
           "insight": "Enable Parallel Execution",
           "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
-          "tags": ["Efficiency", "Delivery", "Speed"]
+          "tags": [
+            "Efficiency",
+            "Delivery",
+            "Speed"
+          ]
         },
         {
           "priority": "P2",
           "insight": "Increase GC Capacity",
           "description": "Engage additional general contractors in overloaded regions.",
-          "tags": ["Operations", "Capacity", "Contractors"]
+          "tags": [
+            "Operations",
+            "Capacity",
+            "Contractors"
+          ]
         },
         {
           "priority": "P2",
           "insight": "Buffer for Weather Risks",
           "description": "Add contingency time in markets with heavy weather disruptions.",
-          "tags": ["Planning", "Contingency", "Weather"]
+          "tags": [
+            "Planning",
+            "Contingency",
+            "Weather"
+          ]
         },
         {
           "priority": "P5",
           "insight": "Enable Parallel Execution",
           "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
-          "tags": ["Efficiency", "Planning", "Execution"]
+          "tags": [
+            "Efficiency",
+            "Planning",
+            "Execution"
+          ]
         },
         {
           "priority": "P4",
           "insight": "Increase GC Capacity",
           "description": "Engage additional general contractors in overloaded regions.",
-          "tags": ["Operations", "Workforce", "Capacity"]
+          "tags": [
+            "Operations",
+            "Workforce",
+            "Capacity"
+          ]
         },
         {
           "priority": "P3",
           "insight": "Buffer for Weather Risks",
           "description": "Add contingency time in markets with heavy weather disruptions.",
-          "tags": ["Planning", "Weather", "Delays"]
+          "tags": [
+            "Planning",
+            "Weather",
+            "Delays"
+          ]
         }
       ]
-    }
-    "site/site-lists":{
-    "isSuccess": true,
-    "statusCode": 200,
-    "data": {
+    },
+    "site/site-lists": {
+      "isSuccess": true,
+      "statusCode": 200,
+      "data": {
         "data": [
-            {
-                "site_code": "A1Q0853B-Test",
-                "market": "MINNEAPOLIS MN",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "MT03310C-Test",
-                "market": "DENVER CO",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "DM05912A-Test",
-                "market": "DES MOINES IA",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "AHLOB Test 3569",
-                "market": "SEATTLE WA",
-                "progress": "4%",
-                "region": "WEST",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "AHLOB Test 3541",
-                "market": "INDIANAPOLIS IN",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "CH95051A-Test",
-                "market": "CHICAGO",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "AHLOB Test 3094",
-                "market": "WICHITA KS",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "A1P0412C-Test",
-                "market": "MINNEAPOLIS MN",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "DN03250A-Test",
-                "market": "DENVER CO",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            },
-            {
-                "site_code": "AHLOB Test 3095",
-                "market": "WICHITA KS",
-                "progress": "4%",
-                "region": "CENTRAL",
-                "current_phase": 1,
-                "status": "COMPLETED"
-            }
+          {
+            "site_code": "A1Q0853B-Test",
+            "market": "MINNEAPOLIS MN",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "MT03310C-Test",
+            "market": "DENVER CO",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "DM05912A-Test",
+            "market": "DES MOINES IA",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "AHLOB Test 3569",
+            "market": "SEATTLE WA",
+            "progress": "4%",
+            "region": "WEST",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "AHLOB Test 3541",
+            "market": "INDIANAPOLIS IN",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "CH95051A-Test",
+            "market": "CHICAGO",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "AHLOB Test 3094",
+            "market": "WICHITA KS",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "A1P0412C-Test",
+            "market": "MINNEAPOLIS MN",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "DN03250A-Test",
+            "market": "DENVER CO",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          },
+          {
+            "site_code": "AHLOB Test 3095",
+            "market": "WICHITA KS",
+            "progress": "4%",
+            "region": "CENTRAL",
+            "current_phase": 1,
+            "status": "COMPLETED"
+          }
         ],
         "pageno": 1,
         "pagesize": 10,
         "totalRecords": "3741"
+      }
     }
-}
   }
 }
