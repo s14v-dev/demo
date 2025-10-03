@@ -63,7 +63,7 @@
       ]
     }
   },
-   "insights": {
+  "insights": {
     "isSuccess": true,
     "data": {
       "info": [
@@ -71,67 +71,67 @@
           "priority": "P1",
           "insight": "Material Shortage Risk",
           "description": "Critical material shortages are causing delays in project execution.",
-          "mode": "Risk"
+          "tags": ["Risk", "Supply Chain", "Critical"]
         },
         {
           "priority": "P1",
           "insight": "Resource Allocation Gap",
           "description": "Lack of skilled engineers in Chicago and Cleveland markets may delay timelines.",
-          "mode": "Resource"
+          "tags": ["Resource", "Staffing", "Urgent"]
         },
         {
           "priority": "P1",
           "insight": "Vendor Alignment Issue",
           "description": "Entitlement misalignment with vendors may cause contract disputes.",
-          "mode": "Vendor"
+          "tags": ["Vendor", "Contract", "Alignment"]
         },
         {
           "priority": "P1",
           "insight": "Automation Opportunity",
           "description": "AI-driven task automation could reduce project execution time by 15%.",
-          "mode": "Opportunity"
+          "tags": ["Opportunity", "Automation", "AI"]
         },
         {
           "priority": "P1",
           "insight": "Parallelization Potential",
           "description": "Critical path tasks can be parallelized to accelerate delivery.",
-          "mode": "Efficiency"
+          "tags": ["Efficiency", "Delivery", "Planning"]
         },
         {
           "priority": "P2",
           "insight": "Budget Risk",
           "description": "Unplanned overtime may increase project costs in high-demand markets.",
-          "mode": "Finance"
+          "tags": ["Finance", "Overtime", "Risk"]
         },
         {
           "priority": "P2",
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-          "mode": "External"
+          "tags": ["External", "Weather", "Timeline"]
         },
         {
           "priority": "P3",
           "insight": "Budget Risk",
           "description": "Unplanned overtime may increase project costs in high-demand markets.",
-          "mode": "Finance"
+          "tags": ["Finance", "Risk", "Cost"]
         },
         {
           "priority": "P4",
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-          "mode": "External"
+          "tags": ["External", "Disruption", "Risk"]
         },
         {
           "priority": "P4",
           "insight": "Budget Risk",
           "description": "Unplanned overtime may increase project costs in high-demand markets.",
-          "mode": "Finance"
+          "tags": ["Finance", "Unplanned", "Risk"]
         },
         {
           "priority": "P5",
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
-          "mode": "External"
+          "tags": ["External", "Seasonal", "Risk"]
         }
       ],
       "actionable": [
@@ -139,62 +139,61 @@
           "priority": "P1",
           "insight": "Reallocate Skilled Engineers",
           "description": "Shift engineers from low-priority to high-demand markets to mitigate delays.",
-          "mode": "Resource"
+          "tags": ["Resource", "Staffing", "Mitigation"]
         },
         {
           "priority": "P1",
           "insight": "Fast-Track Material Procurement",
           "description": "Engage alternate suppliers to address immediate material shortages.",
-          "mode": "Procurement"
+          "tags": ["Procurement", "Suppliers", "Urgent"]
         },
         {
           "priority": "P1",
           "insight": "Negotiate Vendor SLAs",
           "description": "Work with vendors to align entitlements and avoid disputes.",
-          "mode": "Vendor"
+          "tags": ["Vendor", "SLA", "Contracts"]
         },
         {
           "priority": "P1",
           "insight": "Adopt Workflow Automation",
           "description": "Implement AI tools for automated reporting and tracking.",
-          "mode": "Technology"
+          "tags": ["Technology", "Automation", "AI"]
         },
         {
           "priority": "P1",
           "insight": "Enable Parallel Execution",
           "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
-          "mode": "Efficiency"
+          "tags": ["Efficiency", "Delivery", "Speed"]
         },
         {
           "priority": "P2",
           "insight": "Increase GC Capacity",
           "description": "Engage additional general contractors in overloaded regions.",
-          "mode": "Operations"
+          "tags": ["Operations", "Capacity", "Contractors"]
         },
         {
           "priority": "P2",
           "insight": "Buffer for Weather Risks",
           "description": "Add contingency time in markets with heavy weather disruptions.",
-          "mode": "Planning"
-        }
-        ,
+          "tags": ["Planning", "Contingency", "Weather"]
+        },
         {
           "priority": "P5",
           "insight": "Enable Parallel Execution",
           "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
-          "mode": "Efficiency"
+          "tags": ["Efficiency", "Planning", "Execution"]
         },
         {
           "priority": "P4",
           "insight": "Increase GC Capacity",
           "description": "Engage additional general contractors in overloaded regions.",
-          "mode": "Operations"
+          "tags": ["Operations", "Workforce", "Capacity"]
         },
         {
           "priority": "P3",
           "insight": "Buffer for Weather Risks",
           "description": "Add contingency time in markets with heavy weather disruptions.",
-          "mode": "Planning"
+          "tags": ["Planning", "Weather", "Delays"]
         }
       ]
     }
