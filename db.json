@@ -63,31 +63,7 @@
       ]
     }
   },
-  "status-points": {
-    "isSuccess": true,
-    "statusCode": 200,
-    "data": [
-      { "key": "48hr Monitoring Completion rate", "value": "17.62" },
-      { "key": "Average punch points per site", "value": "0.01" },
-      { "key": "Total number of Sites", "value": "1701" },
-      { "key": "Total radios", "value": "1765" },
-      { "key": "AHLOB Swapped sites", "value": "1296" },
-      { "key": "AHLOB Swapped radios", "value": "1343" },
-      { "key": "Ready for Swap", "value": "6" },
-      { "key": "Current week forecasted sites", "value": "17" },
-      { "key": "Current week completed sites", "value": "0" },
-      { "key": "No. of scrapped radios", "value": "1383" },
-      { "key": "AHLOB Swap %", "value": "58.5" },
-      { "key": "Swap FTR %", "value": "0" },
-      { "key": "H&S Compliance %", "value": "28" },
-      { "key": "Forecast accuracy (Last week)", "value": "0" },
-      { "key": "Idle Material %", "value": "0" },
-      { "key": "Average site outage Mins", "value": "12.28" },
-      { "key": "Average Swap cycle (Material pick-up to Swap completion)", "value": "36.13" },
-      { "key": "Quality checklist Approved %", "value": "7" }
-    ]
-  },
-  "insights": {
+   "insights": {
     "isSuccess": true,
     "data": {
       "info": [
