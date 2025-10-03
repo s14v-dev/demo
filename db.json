@@ -132,6 +132,30 @@
           "insight": "Weather Impact",
           "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
           "mode": "External"
+        },
+        {
+          "priority": "P3",
+          "insight": "Budget Risk",
+          "description": "Unplanned overtime may increase project costs in high-demand markets.",
+          "mode": "Finance"
+        },
+        {
+          "priority": "P4",
+          "insight": "Weather Impact",
+          "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
+          "mode": "External"
+        },
+        {
+          "priority": "P4",
+          "insight": "Budget Risk",
+          "description": "Unplanned overtime may increase project costs in high-demand markets.",
+          "mode": "Finance"
+        },
+        {
+          "priority": "P5",
+          "insight": "Weather Impact",
+          "description": "Seasonal weather conditions may disrupt timelines in northern regions.",
+          "mode": "External"
         }
       ],
       "actionable": [
@@ -173,6 +197,25 @@
         },
         {
           "priority": "P2",
+          "insight": "Buffer for Weather Risks",
+          "description": "Add contingency time in markets with heavy weather disruptions.",
+          "mode": "Planning"
+        }
+        ,
+        {
+          "priority": "P5",
+          "insight": "Enable Parallel Execution",
+          "description": "Start foundation and design tasks simultaneously to save 2 weeks.",
+          "mode": "Efficiency"
+        },
+        {
+          "priority": "P4",
+          "insight": "Increase GC Capacity",
+          "description": "Engage additional general contractors in overloaded regions.",
+          "mode": "Operations"
+        },
+        {
+          "priority": "P3",
           "insight": "Buffer for Weather Risks",
           "description": "Add contingency time in markets with heavy weather disruptions.",
           "mode": "Planning"
