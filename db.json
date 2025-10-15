@@ -48,5 +48,6 @@
       "simulation": "### Summary  \n\n- **Active Crews Available**: 8 crews.  \n- **Daily Site Capacity Required**: 30 sites/day (300 sites ÷ 10 working days).  \n- **Average Site Capacity per Crew per Day**: 3.75 sites (30 sites ÷ 8 crews).  \n- **Feasibility**: Achievable, as 3.75 sites/crew/day is well below the historical average (11–40 sites/crew/day).  \n- **Additional Crews Needed**: None.  \n\n**Plan of Action**:  \n- Prioritize sites (P1, P2, P3).  \n- Allocate crews based on proximity and performance.  \n- Ensure material readiness before starting.  \n- Monitor daily progress (30 sites/day target).  \n- Implement contingency plans if needed.  ",
       "classified": "vendor performance",
       "user_id": 0
-    },  ]
+    }
+  ]
 }
