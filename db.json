@@ -48,6 +48,20 @@
       "simulation": "### Summary  \n\n- **Active Crews Available**: 8 crews.  \n- **Daily Site Capacity Required**: 30 sites/day (300 sites ÷ 10 working days).  \n- **Average Site Capacity per Crew per Day**: 3.75 sites (30 sites ÷ 8 crews).  \n- **Feasibility**: Achievable, as 3.75 sites/crew/day is well below the historical average (11–40 sites/crew/day).  \n- **Additional Crews Needed**: None.  \n\n**Plan of Action**:  \n- Prioritize sites (P1, P2, P3).  \n- Allocate crews based on proximity and performance.  \n- Ensure material readiness before starting.  \n- Monitor daily progress (30 sites/day target).  \n- Implement contingency plans if needed.  ",
       "classified": "vendor performance",
       "user_id": 0
+    },
+    {
+      "id": "9a3d8a84-53f6-4a52-bc5c-274da6eadc75",
+      "scene": "How many active crews are available, and what is the average site capacity per crew per day to meet 300 sites in 14 days?",
+      "simulation": "### **Summary**\n\n- **Active Crews Available:** 8  \n- **Required Average Site Capacity per Crew per Day:** 3.75 sites/crew/day  \n- **Historical Averages (Region-Level):**  \n  - SOUTH: 181.88 sites/crew/day  \n  - WEST: 147.38 sites/crew/day  \n  - CENTRAL: 138 sites/crew/day  \n  - NORTHEAST: 0.375 sites/crew/day (outlier)  \n\n- **Feasibility:** Achievable in SOUTH, WEST, and CENTRAL regions. NORTHEAST may require additional crews or productivity improvements.  \n- **Plan:**  \n  - Allocate 8 crews to regions with higher historical averages.  \n  - Monitor daily progress to meet 30 sites/day.  \n  - Implement contingency measures (e.g., add crews or extend hours) if delays occur.  ",
+      "classified": "vendor performance",
+      "user_id": 0
+    },
+    {
+      "id": "42d5ae37-e381-4155-9b27-90064fa9dd51",
+      "scene": "How many active crews are available, and what is the average site capacity per crew per day to meet 300 sites in 14 days? ",
+      "simulation": "### Summary  \n\n- **Active Crews Available**: 8 crews.  \n- **Daily Site Capacity Required**: 30 sites/day (300 sites ÷ 10 working days).  \n- **Average Site Capacity per Crew per Day**: 3.75 sites (30 sites ÷ 8 crews).  \n- **Feasibility**: Achievable, as 3.75 sites/crew/day is well below the historical average (11–40 sites/crew/day).  \n- **Additional Crews Needed**: None.  \n\n**Plan of Action**:  \n- Prioritize sites (P1, P2, P3).  \n- Allocate crews based on proximity and performance.  \n- Ensure material readiness before starting.  \n- Monitor daily progress (30 sites/day target).  \n- Implement contingency plans if needed.  ",
+      "classified": "vendor performance",
+      "user_id": 0
     }
   ]
 }
