@@ -1,7 +1,7 @@
 {
   "gethistory": [
     {
-      "aiInsights": [
+      "info": [
         {
           "priority": 1,
           "description": "SLA Violation Trend",
@@ -47,7 +47,7 @@
           ]
         }
       ],
-      "actionableInsights": [
+      "action": [
         {
           "priority": 1,
           "description": "Reconfigure Node 12",
