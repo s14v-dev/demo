@@ -1,39 +1,105 @@
 {
-  "get_history_by_id": [
-    {
-      "id": "872160ce-bf71-4456-82ae-d3e6c2cb7259",
-      "scene": "I have 150 sites forecasted for the next month in central region. Share me weekly sites plan for next month & the recommended vendors for each sites based on vendor performance. Simulate how my run rate will be if i put best vendors for those 150 sites ",
-      "simulation": "### Summary\n\n- **Weekly Plan (November 2025)**:\n  - Week 1: 38 sites\n  - Week 2: 38 sites\n  - Week 3: 37 sites\n  - Week 4: 37 sites\n  - **Total**: 150 sites\n\n- **Run Rate**:\n  - All Vendors: 37.5 sites/week\n  - Best Vendors (Omni-Tech & Amory): 50 sites/week\n\n- **Vendor Assignment**:\n  - **Omni-Tech**: 40% of sites (High HSE, material pickup, and NDPC scores)\n  - **Amory**: 40% of sites (Balanced performance, highest capacity)\n  - **Nettxio**: 20% of sites (Lower score but sufficient capacity)\n\n- **Recommendation**: Use Omni-Tech and Amory for improved run rate (50 sites/week).",
-      "classified": "schedule",
-      "user_id": 0
-    },
-    {
-      "id": "83feaae7-7940-4782-85fd-2edf3a581dee",
-      "scene": "I have 150 sites forecasted for the next month in central region. Share me weekly sites plan for next month & the recommended vendors for each sites based on vendor performance. Simulate how my run rate will be if i put best vendors for those 150 sites ",
-      "simulation": "### Weekly Sites Plan for November 2025  \n- **Total Sites**: 150 (37.5 sites/week, rounded to 38 for Week 1 & 4, 37 for Week 2 & 3).  \n- **Vendors Assigned**: Omni-Tech, Amory, Nettxio, One Way Wireless.  \n\n| **Week** | **Target Sites** | **Vendor Assignments**                                                                                     |  \n|----------|------------------|------------------------------------------------------------------------------------------------------------|  \n| Week 1   | 38               | Omni-Tech (12), Amory (12), Nettxio (11), One Way Wireless (3)                                             |  \n| Week 2   | 37               | Omni-Tech (12), Amory (12), Nettxio (11), One Way Wireless (2)                                             |  \n| Week 3   | 37               | Omni-Tech (12), Amory (12), Nettxio (11), One Way Wireless (2)                                             |  \n| Week 4   | 38               | Omni-Tech (12), Amory (12), Nettxio (11), One Way Wireless (3)                                             |  \n\n---\n\n### Vendor Recommendations  \n- **Omni-Tech**: 48 sites (12/week), Score: 68.69.  \n- **Amory**: 48 sites (12/week), Score: 62.64.  \n- **Nettxio**: 44 sites (11/week), Score: 54.41.  \n- **One Way Wireless**: 10 sites (3 in Week 1 & 4, 2 in Week 2 & 3), Score: 71.43.  \n\n---\n\n### Simulated Run Rate  \n- **Baseline**: 37.5 sites/week.  \n- **Simulated**: 37.5 sites/week (meets target).  \n\n---\n\n### Observations  \n- Vendors align with targets; no bottlenecks.  \n- Omni-Tech and Amory are top performers; One Way Wireless fills gaps.  ",
-      "classified": "schedule",
-      "user_id": 0
-    },
-    {
-      "id": "fa5925b8-cc43-4f78-92bb-b92e99be8ba1",
-      "scene": "I have 150 sites forecasted for the next month in central region. Share me weekly sites plan for next month & the recommended vendors for each sites based on vendor performance. Simulate how my run rate will be if i put best vendors for those 150 sites ",
-      "simulation": "### Summary of Weekly Plan and Simulated Run Rate\n\n#### Weekly Plan:\n- **Total Sites**: 150 (November 2025)\n- **Weekly Distribution**:\n  - **Week 1 (Nov 1-7)**: 38 sites (One Way Wireless: 15, Amory: 17, Omni-Tech: 6)\n  - **Week 2 (Nov 8-14)**: 38 sites (One Way Wireless: 15, Amory: 17, Omni-Tech: 6)\n  - **Week 3 (Nov 15-21)**: 38 sites (One Way Wireless: 15, Amory: 17, Omni-Tech: 6)\n  - **Week 4 (Nov 22-28)**: 36 sites (One Way Wireless: 15, Amory: 17, Omni-Tech: 4)\n\n#### Simulated Run Rate with Best Vendors:\n- **Top Vendors**: One Way Wireless, Amory, Omni-Tech\n- **Weekly Capacity**: 44 sites (15 + 17 + 12)\n- **Completion Time**: 4 weeks (150 sites ÷ 44 sites/week)\n- **Efficiency**: Project completed on schedule with no delays.",
-      "classified": "schedule",
-      "user_id": 0
-    },
-    {
-      "id": "581ee407-df04-47ac-ab82-68d5eb93578f",
-      "scene": "I have 150 sites forecasted for the next month in central region. Share me weekly sites plan for next month & the recommended vendors for each sites based on vendor performance. Simulate how my run rate will be if i put best vendors for those 150 sites ",
-      "simulation": "### Summary of Weekly Sites Plan & Vendor Recommendations\n\n#### Weekly Sites Plan:\n- **Total Sites**: 150 (divided across 4 weeks).\n- **Sites per Week**: 38 (Weeks 1 & 2), 37 (Weeks 3 & 4).\n\n| **Week** | **Start Date** | **End Date**   | **Sites to Complete** |\n|----------|----------------|----------------|------------------------|\n| Week 1   | 2025-11-01     | 2025-11-07     | 38                     |\n| Week 2   | 2025-11-08     | 2025-11-14     | 38                     |\n| Week 3   | 2025-11-15     | 2025-11-21     | 37                     |\n| Week 4   | 2025-11-22     | 2025-11-28     | 37                     |\n\n---\n\n#### Vendor Assignments:\n- **Vendors**: One Way Wireless, Omni-Tech, Amory (based on performance scores and capacity).\n\n| **Week** | **Vendor**           | **Sites Assigned** |\n|----------|-----------------------|--------------------|\n| Week 1   | One Way Wireless      | 27                 |\n|          | Omni-Tech             | 11                 |\n| Week 2   | One Way Wireless      | 27                 |\n|          | Omni-Tech             | 11                 |\n| Week 3   | One Way Wireless      | 27                 |\n|          | Amory                 | 10                 |\n| Week 4   | One Way Wireless      | 27                 |\n|          | Amory                 | 10                 |\n\n---\n\n#### Simulated Run Rate:\n- **Weekly Run Rate**: 38 (Weeks 1 & 2), 37 (Weeks 3 & 4).\n- **Total Sites Completed**: 150 in 4 weeks.\n\n---\n\n### Conclusion:\nThe plan ensures timely completion of 150 sites in 4 weeks by utilizing the best-performing vendors.",
-      "classified": "schedule",
-      "user_id": 0
-    },
-    {
-      "id": "55d58ee6-76fe-4c51-92d4-20fe332ad599",
-      "scene": "test",
-      "simulation": "### Summary of Aloha A → Aloha B Swap Project Simulation  \n\n#### **Key Metrics**  \n- **Total Sites**: 153  \n- **Crews Available**: 10 (1 site/day/crew)  \n- **Run Rate**: 10 sites/day  \n- **Total Duration**: 17 working days (23 calendar days including Sundays)  \n- **Start Date**: 2025-10-13  \n- **End Date**: 2025-11-04  \n\n#### **GC-Specific Completion**  \n| **GC** | **Ready Sites** | **Daily Completion Rate** | **Days Required** |  \n|--------|-----------------|---------------------------|-------------------|  \n| GC1    | 50              | 3 sites/day              | 17 days           |  \n| GC2    | 43              | 3 sites/day              | 15 days           |  \n| GC3    | 60              | 4 sites/day              | 15 days           |  \n\n#### **Recommendations**  \n- **Reallocate Crews**: Shift crews from GC3 to GC1 after GC3 completion to reduce overall duration.  \n- **Monitor Dependencies**: Ensure material, entitlement, and SPO readiness to avoid delays.  \n- **Track Progress**: Use a dashboard for daily progress monitoring.  \n\n#### **Conclusion**  \nThe project is on track to complete by **2025-11-04**, provided all dependencies are managed efficiently.",
-      "classified": "schedule",
-      "user_id": 0
+  "isSuccess": true,
+  "statusCode": 200,
+  "data": {
+    "data": {
+      "get_history_by_id": [
+        {
+          "aiInsights": [
+            {
+              "priority": 1,
+              "description": "SLA Violation Trend",
+              "insight": "Average SLA compliance dropped by 12% in the last week across 4 regions.",
+              "category": [
+                "SLA",
+                "Performance"
+              ]
+            },
+            {
+              "priority": 2,
+              "description": "High Latency Detected",
+              "insight": "Latency spikes observed in nodes near the eastern cluster. Investigation required.",
+              "category": [
+                "Network",
+                "Performance"
+              ]
+            },
+            {
+              "priority": 3,
+              "description": "Low Deployment Efficiency",
+              "insight": "Deployment rate decreased by 8% compared to previous sprint.",
+              "category": [
+                "Deployment",
+                "Efficiency"
+              ]
+            },
+            {
+              "priority": 4,
+              "description": "Configuration Drift Identified",
+              "insight": "Two nodes in Zone B have configuration mismatches compared to the baseline template.",
+              "category": [
+                "Network",
+                "Configuration"
+              ]
+            },
+            {
+              "priority": 5,
+              "description": "Server Utilization Peak",
+              "insight": "Three servers exceeded 90% CPU usage over the last 24 hours.",
+              "category": [
+                "Performance"
+              ]
+            }
+          ],
+          "actionableInsights": [
+            {
+              "priority": 1,
+              "description": "Reconfigure Node 12",
+              "insight": "Node 12 requires port reassignment due to failed redundancy check.",
+              "category": [
+                "Configuration",
+                "Maintenance"
+              ]
+            },
+            {
+              "priority": 2,
+              "description": "Optimize VLAN Setup",
+              "insight": "VLAN 300 should be split to isolate heavy traffic channels.",
+              "category": [
+                "Network",
+                "Optimization"
+              ]
+            },
+            {
+              "priority": 3,
+              "description": "Upgrade Firmware Batch 4",
+              "insight": "Batch 4 devices are still running outdated firmware v2.4; upgrade recommended.",
+              "category": [
+                "Deployment",
+                "Maintenance"
+              ]
+            },
+            {
+              "priority": 4,
+              "description": "Review Security Policies",
+              "insight": "Security policies are inconsistent between markets; standardization is required.",
+              "category": [
+                "Security",
+                "Governance"
+              ]
+            },
+            {
+              "priority": 5,
+              "description": "Add Backup Route",
+              "insight": "No failover route detected for hub-to-hub communication in West region.",
+              "category": [
+                "Network",
+                "Resilience"
+              ]
+            }
+          ]
+        }
+      ]
     }
-  ]
+  }
 }
