@@ -1,8 +1,4 @@
 {
-  "isSuccess": true,
-  "statusCode": 200,
-  "data": {
-    "data": {
       "get_history_by_id": [
         {
           "aiInsights": [
@@ -101,5 +97,3 @@
         }
       ]
     }
-  }
-}
