@@ -1,99 +1,99 @@
 {
-      "get_history_by_id": [
+  "get_history_by_id": [
+    {
+      "aiInsights": [
         {
-          "aiInsights": [
-            {
-              "priority": 1,
-              "description": "SLA Violation Trend",
-              "insight": "Average SLA compliance dropped by 12% in the last week across 4 regions.",
-              "category": [
-                "SLA",
-                "Performance"
-              ]
-            },
-            {
-              "priority": 2,
-              "description": "High Latency Detected",
-              "insight": "Latency spikes observed in nodes near the eastern cluster. Investigation required.",
-              "category": [
-                "Network",
-                "Performance"
-              ]
-            },
-            {
-              "priority": 3,
-              "description": "Low Deployment Efficiency",
-              "insight": "Deployment rate decreased by 8% compared to previous sprint.",
-              "category": [
-                "Deployment",
-                "Efficiency"
-              ]
-            },
-            {
-              "priority": 4,
-              "description": "Configuration Drift Identified",
-              "insight": "Two nodes in Zone B have configuration mismatches compared to the baseline template.",
-              "category": [
-                "Network",
-                "Configuration"
-              ]
-            },
-            {
-              "priority": 5,
-              "description": "Server Utilization Peak",
-              "insight": "Three servers exceeded 90% CPU usage over the last 24 hours.",
-              "category": [
-                "Performance"
-              ]
-            }
-          ],
-          "actionableInsights": [
-            {
-              "priority": 1,
-              "description": "Reconfigure Node 12",
-              "insight": "Node 12 requires port reassignment due to failed redundancy check.",
-              "category": [
-                "Configuration",
-                "Maintenance"
-              ]
-            },
-            {
-              "priority": 2,
-              "description": "Optimize VLAN Setup",
-              "insight": "VLAN 300 should be split to isolate heavy traffic channels.",
-              "category": [
-                "Network",
-                "Optimization"
-              ]
-            },
-            {
-              "priority": 3,
-              "description": "Upgrade Firmware Batch 4",
-              "insight": "Batch 4 devices are still running outdated firmware v2.4; upgrade recommended.",
-              "category": [
-                "Deployment",
-                "Maintenance"
-              ]
-            },
-            {
-              "priority": 4,
-              "description": "Review Security Policies",
-              "insight": "Security policies are inconsistent between markets; standardization is required.",
-              "category": [
-                "Security",
-                "Governance"
-              ]
-            },
-            {
-              "priority": 5,
-              "description": "Add Backup Route",
-              "insight": "No failover route detected for hub-to-hub communication in West region.",
-              "category": [
-                "Network",
-                "Resilience"
-              ]
-            }
+          "priority": 1,
+          "description": "SLA Violation Trend",
+          "insight": "Average SLA compliance dropped by 12% in the last week across 4 regions.",
+          "category": [
+            "SLA",
+            "Performance"
+          ]
+        },
+        {
+          "priority": 2,
+          "description": "High Latency Detected",
+          "insight": "Latency spikes observed in nodes near the eastern cluster. Investigation required.",
+          "category": [
+            "Network",
+            "Performance"
+          ]
+        },
+        {
+          "priority": 3,
+          "description": "Low Deployment Efficiency",
+          "insight": "Deployment rate decreased by 8% compared to previous sprint.",
+          "category": [
+            "Deployment",
+            "Efficiency"
+          ]
+        },
+        {
+          "priority": 4,
+          "description": "Configuration Drift Identified",
+          "insight": "Two nodes in Zone B have configuration mismatches compared to the baseline template.",
+          "category": [
+            "Network",
+            "Configuration"
+          ]
+        },
+        {
+          "priority": 5,
+          "description": "Server Utilization Peak",
+          "insight": "Three servers exceeded 90% CPU usage over the last 24 hours.",
+          "category": [
+            "Performance"
+          ]
+        }
+      ],
+      "actionableInsights": [
+        {
+          "priority": 1,
+          "description": "Reconfigure Node 12",
+          "insight": "Node 12 requires port reassignment due to failed redundancy check.",
+          "category": [
+            "Configuration",
+            "Maintenance"
+          ]
+        },
+        {
+          "priority": 2,
+          "description": "Optimize VLAN Setup",
+          "insight": "VLAN 300 should be split to isolate heavy traffic channels.",
+          "category": [
+            "Network",
+            "Optimization"
+          ]
+        },
+        {
+          "priority": 3,
+          "description": "Upgrade Firmware Batch 4",
+          "insight": "Batch 4 devices are still running outdated firmware v2.4; upgrade recommended.",
+          "category": [
+            "Deployment",
+            "Maintenance"
+          ]
+        },
+        {
+          "priority": 4,
+          "description": "Review Security Policies",
+          "insight": "Security policies are inconsistent between markets; standardization is required.",
+          "category": [
+            "Security",
+            "Governance"
+          ]
+        },
+        {
+          "priority": 5,
+          "description": "Add Backup Route",
+          "insight": "No failover route detected for hub-to-hub communication in West region.",
+          "category": [
+            "Network",
+            "Resilience"
           ]
         }
       ]
     }
+  ]
+}
