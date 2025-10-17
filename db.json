@@ -1,99 +1,71 @@
 {
-  "gethistory": [
-    {
-      "info": [
+  "gethistory": {
+    "isSuccess": true,
+    "statusCode": 200,
+    "data": {
+      "action": [
         {
+          "insight": "40 upcoming sites across 19 markets are \"Not Ready\" with swap dates within the next 7 days. All 40 sites have critical risks, averaging 4.33 at-risk items per site.",
           "priority": 1,
-          "description": "SLA Violation Trend",
-          "insight": "Average SLA compliance dropped by 12% in the last week across 4 regions.",
+          "description": "40 Critical Upcoming Sites Not Ready in 7 Days.",
+          "sub_category": "Test, Testing",
           "category": [
-            "SLA",
-            "Performance"
+            "Test",
+            "Testing"
           ]
         },
         {
+          "insight": "Mobile and Birmingham markets each have 2 sites with 100% SLA breaches. Key delays include BOM Received (avg. 19 days in Mobile, 16 days in Birmingham) and Material Pickup (avg. 10.5 and 8.5 days, respectively).",
           "priority": 2,
-          "description": "High Latency Detected",
-          "insight": "Latency spikes observed in nodes near the eastern cluster. Investigation required.",
+          "description": "South Region SLA Breaches Concentrated in Mobile and Birmingham.",
+          "sub_category": "Test, Testing",
           "category": [
-            "Network",
-            "Performance"
-          ]
-        },
-        {
-          "priority": 3,
-          "description": "Low Deployment Efficiency",
-          "insight": "Deployment rate decreased by 8% compared to previous sprint.",
-          "category": [
-            "Deployment",
-            "Efficiency"
-          ]
-        },
-        {
-          "priority": 4,
-          "description": "Configuration Drift Identified",
-          "insight": "Two nodes in Zone B have configuration mismatches compared to the baseline template.",
-          "category": [
-            "Network",
-            "Configuration"
-          ]
-        },
-        {
-          "priority": 5,
-          "description": "Server Utilization Peak",
-          "insight": "Three servers exceeded 90% CPU usage over the last 24 hours.",
-          "category": [
-            "Performance"
+            "Test",
+            "Testing"
           ]
         }
       ],
-      "action": [
+      "info": [
         {
-          "priority": 1,
-          "description": "Reconfigure Node 12",
-          "insight": "Node 12 requires port reassignment due to failed redundancy check.",
-          "category": [
-            "Configuration",
-            "Maintenance"
-          ]
-        },
-        {
-          "priority": 2,
-          "description": "Optimize VLAN Setup",
-          "insight": "VLAN 300 should be split to isolate heavy traffic channels.",
-          "category": [
-            "Network",
-            "Optimization"
-          ]
-        },
-        {
+          "insight": "Pittsburgh (Central) achieved the lowest average cycle time (47.79 days), zero delays, and 100% on-time rate across 14 sites, setting a benchmark for best practices.",
           "priority": 3,
-          "description": "Upgrade Firmware Batch 4",
-          "insight": "Batch 4 devices are still running outdated firmware v2.4; upgrade recommended.",
+          "description": "Pittsburgh Leads in Best Practice Performance.",
+          "sub_category": "Test, Testing",
           "category": [
-            "Deployment",
-            "Maintenance"
+            "Test",
+            "Testing"
           ]
         },
         {
-          "priority": 4,
-          "description": "Review Security Policies",
-          "insight": "Security policies are inconsistent between markets; standardization is required.",
+          "insight": "Procurement accounts for 69.6% of total cycle time across 39 markets, with average procurement days ranging from 32.75 to 34.0, highlighting its critical role in project timelines.",
+          "priority": 2,
+          "description": "Procurement Phase Dominates Total Cycle Time.",
+          "sub_category": "Test, Testing",
           "category": [
-            "Security",
-            "Governance"
+            "Test",
+            "Testing"
           ]
         },
         {
-          "priority": 5,
-          "description": "Add Backup Route",
-          "insight": "No failover route detected for hub-to-hub communication in West region.",
+          "insight": "Central region completed 1,442 sites with a 100% on-time rate in 23 markets, outperforming South (99.4%) and West (99.3%) regions.",
+          "priority": 2,
+          "description": "Central Region Achieves Highest On-Time Completion Rate.",
+          "sub_category": "Test, Testing",
           "category": [
-            "Network",
-            "Resilience"
+            "Test",
+            "Testing"
           ]
         }
-      ]
+      ],
+      "action_tags": [
+        "Test",
+        "Testing"
+      ],
+      "info_tags": [
+        "Test",
+        "Testing"
+      ],
+      "success": true
     }
-  ]
+  }
 }
