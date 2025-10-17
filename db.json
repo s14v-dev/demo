@@ -1,71 +1,60 @@
 {
-  "gethistory": {
-    "isSuccess": true,
-    "statusCode": 200,
-    "data": {
-      "action": [
-        {
-          "insight": "40 upcoming sites across 19 markets are \"Not Ready\" with swap dates within the next 7 days. All 40 sites have critical risks, averaging 4.33 at-risk items per site.",
-          "priority": 1,
-          "description": "40 Critical Upcoming Sites Not Ready in 7 Days.",
-          "sub_category": "Test, Testing",
-          "category": [
-            "Test",
-            "Testing"
-          ]
-        },
-        {
-          "insight": "Mobile and Birmingham markets each have 2 sites with 100% SLA breaches. Key delays include BOM Received (avg. 19 days in Mobile, 16 days in Birmingham) and Material Pickup (avg. 10.5 and 8.5 days, respectively).",
-          "priority": 2,
-          "description": "South Region SLA Breaches Concentrated in Mobile and Birmingham.",
-          "sub_category": "Test, Testing",
-          "category": [
-            "Test",
-            "Testing"
-          ]
-        }
-      ],
-      "info": [
-        {
-          "insight": "Pittsburgh (Central) achieved the lowest average cycle time (47.79 days), zero delays, and 100% on-time rate across 14 sites, setting a benchmark for best practices.",
-          "priority": 3,
-          "description": "Pittsburgh Leads in Best Practice Performance.",
-          "sub_category": "Test, Testing",
-          "category": [
-            "Test",
-            "Testing"
-          ]
-        },
-        {
-          "insight": "Procurement accounts for 69.6% of total cycle time across 39 markets, with average procurement days ranging from 32.75 to 34.0, highlighting its critical role in project timelines.",
-          "priority": 2,
-          "description": "Procurement Phase Dominates Total Cycle Time.",
-          "sub_category": "Test, Testing",
-          "category": [
-            "Test",
-            "Testing"
-          ]
-        },
-        {
-          "insight": "Central region completed 1,442 sites with a 100% on-time rate in 23 markets, outperforming South (99.4%) and West (99.3%) regions.",
-          "priority": 2,
-          "description": "Central Region Achieves Highest On-Time Completion Rate.",
-          "sub_category": "Test, Testing",
-          "category": [
-            "Test",
-            "Testing"
-          ]
-        }
-      ],
-      "action_tags": [
-        "Test",
-        "Testing"
-      ],
-      "info_tags": [
-        "Test",
-        "Testing"
-      ],
-      "success": true
-    }
+  "isSuccess": true,
+  "statusCode": 200,
+  "data": {
+    "action": [
+      {
+        "insight": "40 upcoming sites across 19 markets are \"Not Ready\" with swap dates within the next 7 days. All 40 sites have critical risks, averaging 4.33 at-risk items per site.",
+        "priority": 1,
+        "description": "40 Critical Upcoming Sites Not Ready in 7 Days.",
+        "sub_category": "Critical, Urgent",
+        "category": ["Critical", "Urgent"]
+      },
+      {
+        "insight": "Mobile and Birmingham markets each have 2 sites with 100% SLA breaches. Key delays include BOM Received (avg. 19 days in Mobile, 16 days in Birmingham) and Material Pickup (avg. 10.5 and 8.5 days, respectively).",
+        "priority": 2,
+        "description": "South Region SLA Breaches Concentrated in Mobile and Birmingham.",
+        "sub_category": "Warning, SLA",
+        "category": ["Warning", "SLA"]
+      }
+    ],
+    "info": [
+      {
+        "insight": "Pittsburgh (Central) achieved the lowest average cycle time (47.79 days), zero delays, and 100% on-time rate across 14 sites, setting a benchmark for best practices.",
+        "priority": 3,
+        "description": "Pittsburgh Leads in Best Practice Performance.",
+        "sub_category": "Performance, Benchmark",
+        "category": ["Performance", "Benchmark"]
+      },
+      {
+        "insight": "Procurement accounts for 69.6% of total cycle time across 39 markets, with average procurement days ranging from 32.75 to 34.0, highlighting its critical role in project timelines.",
+        "priority": 2,
+        "description": "Procurement Phase Dominates Total Cycle Time.",
+        "sub_category": "Procurement, Analysis",
+        "category": ["Procurement", "Analysis"]
+      },
+      {
+        "insight": "Central region completed 1,442 sites with a 100% on-time rate in 23 markets, outperforming South (99.4%) and West (99.3%) regions.",
+        "priority": 2,
+        "description": "Central Region Achieves Highest On-Time Completion Rate.",
+        "sub_category": "Region, OnTime",
+        "category": ["Region", "OnTime"]
+      }
+    ],
+    "action_tags": [
+      "Critical",
+      "Urgent",
+      "Warning",
+      "SLA"
+    ],
+    "info_tags": [
+      "Performance",
+      "Benchmark",
+      "Procurement",
+      "Analysis",
+      "Region",
+      "OnTime"
+    ],
+    "success": true
   }
 }
